@@ -1,0 +1,37 @@
+LYFT MOBILE
+
+FLOW:
+
+-Vista splash: con duración de 2 a 5 segundos redirecciona a vista de inicio.
+
+
+-Vista inicio: dos botones (LOG IN / SIGN UP).
+	+ regreso a la vista anterior.
+
+-SIGN UP redirecciona a vista formulario.
+	+ regreso a la vista anterior.
+
+-Vista formulario: El usuario puede elegir el pais e ingreasar un número telefónico.
+	Botón NEXT deshabilitado hasta validar el ingreso de un número de 10 dígitos.
+	Una vez validado la entrada del número se habilita el botón y envia alerta con un código aleatorio(LAB-000) y redirecciona a la siguiente vista.
+	Presenta la opción de ingresar un nuevo código.
+	+ regreso a la vista anterior.
+
+-Vista datos usuario: formulario que pide al usuario nombre, apellido y correo electrónico.
+	Además incluye un checkbox de aceptación de términos y condiciones del servicio.
+	+ regreso a la vista anterior.
+
+-Vista final: muestra al usuario éxito en el registro.
+	+ regreso a la vista anterior.
+
+
+Pseudocódigo
+
+*Función activar vista splash/inicio (interval + fade).
+*Función redireccionar a signup.
+*Función redireccionar a formulario.
+*Función validación con activación de botón.
+*Función generación de código.
+*Función a modal de código
+*Función validación datos de usuario.
+*Función redirección a registro exitoso
