@@ -167,6 +167,14 @@
 		color:#fff;
 	}
 
+	.btn, .btn-large, .btn-floating, .btn-large, .btn-flat {
+    font-size: 0.8rem;
+    outline: 0;
+		width:auto;
+		padding: 0.8rem auto;
+}
+
+
 	.btn-theme-1:hover,.btn-theme-1:focus{
 		background-color: transparent;
 		border: 2px solid #c70881;
@@ -401,6 +409,14 @@
 	}
 
 	/*LAB-CODE*/
+
+	#input-code{
+		color: #530060;
+		font-size: 24px;
+		letter-spacing: 4px;
+
+	}
+
 	.sms{
 		font-size: 2rem;
 		font-weight: 700;
@@ -430,7 +446,25 @@
 		height: auto;
 	}
 	#register-moustache img{
-		width: 60vw;
-		height: auto;
+		width: 30vw;
 		margin-top: 0;
+		padding-top: 1.5rem;
 	}
+
+/*MEDIA QUERIES*/
+
+
+/*small-medium*/
+@media only screen and (max-width: 600px) {
+
+}
+
+/*medium*/
+@media only screen and (max-width: 992px) {
+
+}
+
+/*medium*/
+@media only screen and (min-width: 993px) {
+
+}
