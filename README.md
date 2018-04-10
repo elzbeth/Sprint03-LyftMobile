@@ -1,5 +1,6 @@
 
 # Lyft Mobile
+![lyft](https://user-images.githubusercontent.com/18369577/38586104-0f7d5024-3ce2-11e8-85b7-06efe19c5022.jpg)
 * **Track:** _Common Core_
 * **Sprint 03:** _JQuery_
 * **Unidad:** _04_
